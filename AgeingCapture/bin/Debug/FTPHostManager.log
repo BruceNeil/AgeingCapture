@@ -1,0 +1,240 @@
+A2023-07-03 15:12:30.579 95c Enter Watch Dog
+A2023-07-03 15:12:30.579 95c Leave Watch Dog
+A2023-07-03 15:12:30.579 95c Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 15:12:30.589 95c Enter Watch Dog
+A2023-07-03 15:12:37.340 8194 Destoryed Feed Dog Thread
+A2023-07-03 15:12:37.340 8194 Destoryed Monitor FTP Thread
+A2023-07-03 15:12:38.041 8194 Now: 14696915, Last: 14695499, Interval: 1416
+A2023-07-03 15:12:38.041 8194 Unmap Shared
+A2023-07-03 15:12:38.041 8194 Closed Handle
+A2023-07-03 15:12:38.041 8194 FTPHostServer Destoryed
+A2023-07-03 15:22:42.168 7ab8 Enter Watch Dog
+A2023-07-03 15:22:42.168 7ab8 Leave Watch Dog
+A2023-07-03 15:22:42.168 7ab8 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 15:22:42.172 7ab8 Enter Watch Dog
+A2023-07-03 15:22:50.608 1ee0 Destoryed Feed Dog Thread
+A2023-07-03 15:22:50.608 1ee0 Destoryed Monitor FTP Thread
+A2023-07-03 15:22:51.309 1ee0 Now: 15310187, Last: 15309072, Interval: 1115
+A2023-07-03 15:22:51.309 1ee0 Unmap Shared
+A2023-07-03 15:22:51.309 1ee0 Closed Handle
+A2023-07-03 15:22:51.309 1ee0 FTPHostServer Destoryed
+A2023-07-03 15:27:06.221 8548 Enter Watch Dog
+A2023-07-03 15:27:06.221 8548 Leave Watch Dog
+A2023-07-03 15:27:06.221 8548 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 15:27:06.231 8548 Enter Watch Dog
+A2023-07-03 15:27:13.428 85a4 Destoryed Feed Dog Thread
+A2023-07-03 15:27:13.428 85a4 Destoryed Monitor FTP Thread
+A2023-07-03 15:27:14.129 85a4 Now: 15573001, Last: 15572165, Interval: 836
+A2023-07-03 15:27:14.129 85a4 Unmap Shared
+A2023-07-03 15:27:14.129 85a4 Closed Handle
+A2023-07-03 15:27:14.129 85a4 FTPHostServer Destoryed
+A2023-07-03 17:06:11.630 8974 Enter Watch Dog
+A2023-07-03 17:06:11.630 8974 Leave Watch Dog
+A2023-07-03 17:06:11.630 8974 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 17:06:11.642 8974 Enter Watch Dog
+A2023-07-03 17:06:18.290 8b64 Destoryed Feed Dog Thread
+A2023-07-03 17:06:18.290 8b64 Destoryed Monitor FTP Thread
+A2023-07-03 17:06:18.991 8b64 Now: 21517861, Last: 21516545, Interval: 1316
+A2023-07-03 17:06:18.991 8b64 Unmap Shared
+A2023-07-03 17:06:18.991 8b64 Closed Handle
+A2023-07-03 17:06:18.991 8b64 FTPHostServer Destoryed
+A2023-07-03 17:25:26.366 28a4 Enter Watch Dog
+A2023-07-03 17:25:26.367 28a4 Leave Watch Dog
+A2023-07-03 17:25:26.367 28a4 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 17:25:26.380 28a4 Enter Watch Dog
+A2023-07-03 17:25:33.001 8250 Destoryed Feed Dog Thread
+A2023-07-03 17:25:33.001 8250 Destoryed Monitor FTP Thread
+A2023-07-03 17:25:33.703 8250 Now: 22672570, Last: 22671298, Interval: 1272
+A2023-07-03 17:25:33.703 8250 Unmap Shared
+A2023-07-03 17:25:33.703 8250 Closed Handle
+A2023-07-03 17:25:33.703 8250 FTPHostServer Destoryed
+A2023-07-03 17:26:27.618 7b40 Enter Watch Dog
+A2023-07-03 17:26:27.619 7b40 Leave Watch Dog
+A2023-07-03 17:26:27.619 7b40 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 17:26:27.626 7b40 Enter Watch Dog
+A2023-07-03 17:26:35.432 52d4 Destoryed Feed Dog Thread
+A2023-07-03 17:26:35.433 52d4 Destoryed Monitor FTP Thread
+A2023-07-03 17:26:36.133 52d4 Now: 22735014, Last: 22733566, Interval: 1448
+A2023-07-03 17:26:36.133 52d4 Unmap Shared
+A2023-07-03 17:26:36.133 52d4 Closed Handle
+A2023-07-03 17:26:36.133 52d4 FTPHostServer Destoryed
+A2023-07-03 19:07:26.352 3d68 Enter Watch Dog
+A2023-07-03 19:07:26.352 3d68 Leave Watch Dog
+A2023-07-03 19:07:26.352 3d68 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 19:07:26.365 3d68 Enter Watch Dog
+A2023-07-03 19:07:38.120 4d50 Destoryed Feed Dog Thread
+A2023-07-03 19:07:38.120 4d50 Destoryed Monitor FTP Thread
+A2023-07-03 19:07:38.821 4d50 Now: 28797688, Last: 28796265, Interval: 1423
+A2023-07-03 19:07:38.821 4d50 Unmap Shared
+A2023-07-03 19:07:38.821 4d50 Closed Handle
+A2023-07-03 19:07:38.821 4d50 FTPHostServer Destoryed
+A2023-07-03 19:07:51.911 4b88 Enter Watch Dog
+A2023-07-03 19:07:51.911 4b88 Leave Watch Dog
+A2023-07-03 19:07:51.911 4b88 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 19:07:51.918 4b88 Enter Watch Dog
+A2023-07-03 19:09:38.051 749c Destoryed Feed Dog Thread
+A2023-07-03 19:09:38.051 749c Destoryed Monitor FTP Thread
+A2023-07-03 19:09:38.752 749c Now: 28917622, Last: 28916758, Interval: 864
+A2023-07-03 19:09:38.752 749c Unmap Shared
+A2023-07-03 19:09:38.752 749c Closed Handle
+A2023-07-03 19:09:38.752 749c FTPHostServer Destoryed
+A2023-07-03 19:18:43.355 626c Enter Watch Dog
+A2023-07-03 19:18:43.355 626c Leave Watch Dog
+A2023-07-03 19:18:43.355 626c Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 19:18:43.368 626c Enter Watch Dog
+A2023-07-03 19:19:39.600 4774 Destoryed Feed Dog Thread
+A2023-07-03 19:19:39.600 4774 Destoryed Monitor FTP Thread
+A2023-07-03 19:19:40.301 4774 Now: 29519180, Last: 29517684, Interval: 1496
+A2023-07-03 19:19:40.301 4774 Unmap Shared
+A2023-07-03 19:19:40.301 4774 Closed Handle
+A2023-07-03 19:19:40.301 4774 FTPHostServer Destoryed
+A2023-07-03 19:19:42.389 4adc Enter Watch Dog
+A2023-07-03 19:19:42.389 4adc Leave Watch Dog
+A2023-07-03 19:19:42.389 4adc Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 19:19:42.395 4adc Enter Watch Dog
+A2023-07-03 19:20:09.973 4fe4 Destoryed Feed Dog Thread
+A2023-07-03 19:20:09.973 4fe4 Destoryed Monitor FTP Thread
+A2023-07-03 19:20:10.674 4fe4 Now: 29549550, Last: 29548442, Interval: 1108
+A2023-07-03 19:20:10.674 4fe4 Unmap Shared
+A2023-07-03 19:20:10.674 4fe4 Closed Handle
+A2023-07-03 19:20:10.674 4fe4 FTPHostServer Destoryed
+A2023-07-03 19:40:15.794 6e48 Enter Watch Dog
+A2023-07-03 19:40:15.794 6e48 Leave Watch Dog
+A2023-07-03 19:40:15.794 6e48 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-03 19:40:15.803 6e48 Enter Watch Dog
+A2023-07-03 19:40:26.128 8564 Destoryed Feed Dog Thread
+A2023-07-03 19:40:26.128 8564 Destoryed Monitor FTP Thread
+A2023-07-03 19:40:26.829 8564 Now: 30765706, Last: 30764721, Interval: 985
+A2023-07-03 19:40:26.829 8564 Unmap Shared
+A2023-07-03 19:40:26.829 8564 Closed Handle
+A2023-07-03 19:40:26.829 8564 FTPHostServer Destoryed
+A2023-07-04 14:55:10.083 77fc Enter Watch Dog
+A2023-07-04 14:55:10.083 77fc Leave Watch Dog
+A2023-07-04 14:55:10.083 77fc Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-04 14:55:10.088 77fc Enter Watch Dog
+A2023-07-04 14:55:18.005 601c Destoryed Feed Dog Thread
+A2023-07-04 14:55:18.005 601c Destoryed Monitor FTP Thread
+A2023-07-04 14:55:18.706 601c Now: 100057575, Last: 100055988, Interval: 1587
+A2023-07-04 14:55:18.706 601c Unmap Shared
+A2023-07-04 14:55:18.706 601c Closed Handle
+A2023-07-04 14:55:18.706 601c FTPHostServer Destoryed
+A2023-07-04 14:59:05.420 5d28 Enter Watch Dog
+A2023-07-04 14:59:05.420 5d28 Leave Watch Dog
+A2023-07-04 14:59:05.420 5d28 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-04 14:59:05.429 5d28 Enter Watch Dog
+A2023-07-04 14:59:14.809 4894 Destoryed Feed Dog Thread
+A2023-07-04 14:59:14.809 4894 Destoryed Monitor FTP Thread
+A2023-07-04 14:59:15.510 4894 Now: 100294387, Last: 100293360, Interval: 1027
+A2023-07-04 14:59:15.510 4894 Unmap Shared
+A2023-07-04 14:59:15.510 4894 Closed Handle
+A2023-07-04 14:59:15.510 4894 FTPHostServer Destoryed
+A2023-07-04 14:59:32.905 71ac Enter Watch Dog
+A2023-07-04 14:59:32.906 71ac Leave Watch Dog
+A2023-07-04 14:59:32.906 71ac Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-04 14:59:32.909 71ac Enter Watch Dog
+A2023-07-04 15:01:37.258 41f8 Destoryed Feed Dog Thread
+A2023-07-04 15:01:37.258 41f8 Destoryed Monitor FTP Thread
+A2023-07-04 15:01:37.960 41f8 Now: 100436836, Last: 100435705, Interval: 1131
+A2023-07-04 15:01:37.960 41f8 Unmap Shared
+A2023-07-04 15:01:37.960 41f8 Closed Handle
+A2023-07-04 15:01:37.960 41f8 FTPHostServer Destoryed
+A2023-07-04 15:09:26.403 95f0 Enter Watch Dog
+A2023-07-04 15:09:26.403 95f0 Leave Watch Dog
+A2023-07-04 15:09:26.403 95f0 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-04 15:09:26.407 95f0 Enter Watch Dog
+A2023-07-04 15:09:33.495 904c Destoryed Feed Dog Thread
+A2023-07-04 15:09:33.495 904c Destoryed Monitor FTP Thread
+A2023-07-04 15:09:34.196 904c Now: 100913073, Last: 100912337, Interval: 736
+A2023-07-04 15:09:34.196 904c Unmap Shared
+A2023-07-04 15:09:34.196 904c Closed Handle
+A2023-07-04 15:09:34.196 904c FTPHostServer Destoryed
+A2023-07-04 15:09:36.477 2d3c Enter Watch Dog
+A2023-07-04 15:09:36.477 2d3c Leave Watch Dog
+A2023-07-04 15:09:36.477 2d3c Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-04 15:09:36.490 2d3c Enter Watch Dog
+A2023-07-04 15:09:44.665 194 Destoryed Feed Dog Thread
+A2023-07-04 15:09:44.665 194 Destoryed Monitor FTP Thread
+A2023-07-04 15:09:45.367 194 Now: 100924233, Last: 100923402, Interval: 831
+A2023-07-04 15:09:45.367 194 Unmap Shared
+A2023-07-04 15:09:45.367 194 Closed Handle
+A2023-07-04 15:09:45.367 194 FTPHostServer Destoryed
+A2023-07-05 08:18:04.688 96e0 Enter Watch Dog
+A2023-07-05 08:18:04.688 96e0 Leave Watch Dog
+A2023-07-05 08:18:04.688 96e0 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-05 08:18:04.696 96e0 Enter Watch Dog
+A2023-07-05 08:18:14.988 219c Destoryed Feed Dog Thread
+A2023-07-05 08:18:14.988 219c Destoryed Monitor FTP Thread
+A2023-07-05 08:18:15.689 219c Now: 162634563, Last: 162633600, Interval: 963
+A2023-07-05 08:18:15.689 219c Unmap Shared
+A2023-07-05 08:18:15.689 219c Closed Handle
+A2023-07-05 08:18:15.689 219c FTPHostServer Destoryed
+A2023-07-05 08:18:16.889 47fc Enter Watch Dog
+A2023-07-05 08:18:16.889 47fc Leave Watch Dog
+A2023-07-05 08:18:16.890 47fc Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-05 08:18:16.895 47fc Enter Watch Dog
+A2023-07-05 08:18:45.878 3788 Destoryed Feed Dog Thread
+A2023-07-05 08:18:45.878 3788 Destoryed Monitor FTP Thread
+A2023-07-05 08:18:46.579 3788 Now: 162665454, Last: 162663950, Interval: 1504
+A2023-07-05 08:18:46.579 3788 Unmap Shared
+A2023-07-05 08:18:46.579 3788 Closed Handle
+A2023-07-05 08:18:46.579 3788 FTPHostServer Destoryed
+A2023-07-05 08:36:56.924 90ac Enter Watch Dog
+A2023-07-05 08:36:56.924 90ac Leave Watch Dog
+A2023-07-05 08:36:56.924 90ac Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-05 08:36:56.925 90ac Enter Watch Dog
+A2023-07-05 08:37:04.975 9af8 Destoryed Feed Dog Thread
+A2023-07-05 08:37:04.975 9af8 Destoryed Monitor FTP Thread
+A2023-07-05 08:37:05.676 9af8 Now: 163764549, Last: 163762853, Interval: 1696
+A2023-07-05 08:37:05.676 9af8 Unmap Shared
+A2023-07-05 08:37:05.676 9af8 Closed Handle
+A2023-07-05 08:37:05.676 9af8 FTPHostServer Destoryed
+A2023-07-05 08:37:07.726 9594 Enter Watch Dog
+A2023-07-05 08:37:07.726 9594 Leave Watch Dog
+A2023-07-05 08:37:07.726 9594 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-05 08:37:07.741 9594 Enter Watch Dog
+A2023-07-05 08:37:15.761 9218 Destoryed Feed Dog Thread
+A2023-07-05 08:37:15.761 9218 Destoryed Monitor FTP Thread
+A2023-07-05 08:37:16.462 9218 Now: 163775344, Last: 163773667, Interval: 1677
+A2023-07-05 08:37:16.462 9218 Unmap Shared
+A2023-07-05 08:37:16.462 9218 Closed Handle
+A2023-07-05 08:37:16.462 9218 FTPHostServer Destoryed
+A2023-07-06 08:32:42.465 314c Enter Watch Dog
+A2023-07-06 08:32:42.465 314c Leave Watch Dog
+A2023-07-06 08:32:42.465 314c Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-06 08:32:42.478 314c Enter Watch Dog
+A2023-07-06 08:34:32.119 81ec Destoryed Feed Dog Thread
+A2023-07-06 08:34:32.119 81ec Destoryed Monitor FTP Thread
+A2023-07-06 08:34:32.820 81ec Now: 250011697, Last: 250010282, Interval: 1415
+A2023-07-06 08:34:32.820 81ec Unmap Shared
+A2023-07-06 08:34:32.820 81ec Closed Handle
+A2023-07-06 08:34:32.820 81ec FTPHostServer Destoryed
+A2023-07-06 08:34:36.804 1d18 Enter Watch Dog
+A2023-07-06 08:34:36.804 1d18 Leave Watch Dog
+A2023-07-06 08:34:36.804 1d18 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-06 08:34:36.811 1d18 Enter Watch Dog
+A2023-07-06 08:36:37.340 9198 Destoryed Feed Dog Thread
+A2023-07-06 08:36:37.340 9198 Destoryed Monitor FTP Thread
+A2023-07-06 08:36:38.041 9198 Now: 250136908, Last: 250135772, Interval: 1136
+A2023-07-06 08:36:38.041 9198 Unmap Shared
+A2023-07-06 08:36:38.041 9198 Closed Handle
+A2023-07-06 08:36:38.041 9198 FTPHostServer Destoryed
+A2023-07-06 08:36:41.387 60cc Enter Watch Dog
+A2023-07-06 08:36:41.387 60cc Leave Watch Dog
+A2023-07-06 08:36:41.387 60cc Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-06 08:36:41.404 60cc Enter Watch Dog
+A2023-07-06 09:04:48.443 8678 Destoryed Feed Dog Thread
+A2023-07-06 09:04:48.443 8678 Destoryed Monitor FTP Thread
+A2023-07-06 09:04:49.143 8678 Now: 251828021, Last: 251826831, Interval: 1190
+A2023-07-06 09:04:49.143 8678 Unmap Shared
+A2023-07-06 09:04:49.143 8678 Closed Handle
+A2023-07-06 09:04:49.143 8678 FTPHostServer Destoryed
+A2023-07-06 09:04:52.672 30c4 Enter Watch Dog
+A2023-07-06 09:04:52.672 30c4 Leave Watch Dog
+A2023-07-06 09:04:52.672 30c4 Get Lock Succeed, Start FTP Monitor And Feeding Dog
+A2023-07-06 09:04:52.676 30c4 Enter Watch Dog
+A2023-07-06 09:06:30.640 902c Destoryed Feed Dog Thread
+A2023-07-06 09:06:30.640 902c Destoryed Monitor FTP Thread
+A2023-07-06 09:06:31.341 902c Now: 251930215, Last: 251929430, Interval: 785
+A2023-07-06 09:06:31.341 902c Unmap Shared
+A2023-07-06 09:06:31.341 902c Closed Handle
+A2023-07-06 09:06:31.341 902c FTPHostServer Destoryed
