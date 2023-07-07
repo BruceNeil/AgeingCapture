@@ -1,0 +1,20 @@
+2023-07-07 16:56:42.0009|ERROR|AgeingCapture.Utils.TraceInfo|System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 AgeingCapture.MainWindow.<>c__DisplayClass4_0.<btn_Save_Click>b__0() 位置 D:\测试代码\AgeingCapture\AgeingCapture\MainWindow.xaml.cs:行号 128
+   在 System.Threading.Tasks.Task.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 AgeingCapture.MainWindow.<btn_Save_Click>d__4.MoveNext() 位置 D:\测试代码\AgeingCapture\AgeingCapture\MainWindow.xaml.cs:行号 125   在 System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 AgeingCapture.MainWindow.<>c__DisplayClass4_0.<btn_Save_Click>b__0() 位置 D:\测试代码\AgeingCapture\AgeingCapture\MainWindow.xaml.cs:行号 128
+   在 System.Threading.Tasks.Task.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 AgeingCapture.MainWindow.<btn_Save_Click>d__4.MoveNext() 位置 D:\测试代码\AgeingCapture\AgeingCapture\MainWindow.xaml.cs:行号 125

@@ -64,9 +64,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Models\Auto1020.cs" />
-    <Compile Include="Models\Auto1030.cs" />
     <Compile Include="Utils\IniFile.cs" />
+    <Compile Include="Utils\TraceInfo.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

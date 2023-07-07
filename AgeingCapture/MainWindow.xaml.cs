@@ -1,4 +1,5 @@
 ﻿using AgeingCapture.Models;
+using AgeingCapture.Utils;
 using AutoCali.Infrastructure;
 using Microsoft.Win32;
 using Newtonsoft.Json;
@@ -22,6 +23,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static AgeingCapture.Utils.TraceInfo;
 
 namespace AgeingCapture
 {
@@ -127,11 +129,14 @@ namespace AgeingCapture
                         // 等待进程执行完毕
                         process.WaitForExit();
                     });
+
+                    // 获取进程的退出代码
+                    int exitCode = process.ExitCode;
                 }
             }
             catch (Exception ex)
             {
-                logger.Error(ex + ex.StackTrace);
+                TraceInfo.LogOut(LogLevels.Error,  ex.ToString()+ex.StackTrace);
                 System.Windows.Forms.MessageBox.Show(ex.Message.ToString());
             }
         }
