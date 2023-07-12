@@ -10,7 +10,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
@@ -36,6 +38,8 @@ namespace AgeingCapture
         public MainWindow()
         {
             InitializeComponent();
+            txtTimes.IsEnabled = false;
+            chk_FactoryMode.IsChecked = false;
         }
 
         private void btn_ChoosePath_Click(object sender, RoutedEventArgs e)
@@ -53,11 +57,11 @@ namespace AgeingCapture
                 {
                     System.Windows.Forms.MessageBox.Show("路径不允许为空！");
                     return;
-                }                
+                }
             }
         }
 
-        private int SafeParseDecimal(string value,string ErrorMsg)
+        private int SafeParseDecimal(string value, string ErrorMsg)
         {
             int result;
             if (int.TryParse(value, out result))
@@ -69,9 +73,17 @@ namespace AgeingCapture
                 throw new FormatException(ErrorMsg);
             }
         }
+        private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            if (!char.IsDigit(e.Text, e.Text.Length - 1))
+            {
+                e.Handled = true; // 阻止非数字字符的输入
+                txtTime.Text = Regex.Replace(txtTime.Text, "[^0-9]+", "");
+            }
+        }
 
         private async void btn_Save_Click(object sender, RoutedEventArgs e)
-        {          
+        {
             if (string.IsNullOrEmpty(txtRate.Text))
             {
                 System.Windows.Forms.MessageBox.Show("Capture路径不允许为空！");
@@ -120,23 +132,37 @@ namespace AgeingCapture
                     process.StartInfo.FileName = CapPath;
                     // 设置参数字符串
                     process.StartInfo.Arguments = data.ToString();
-
                     // 异步启动进程
                     await Task.Run(() =>
                     {
                         // 启动进程
                         process.Start();
-                        // 等待进程执行完毕
-                        process.WaitForExit();
+                        // 等待进程执行完毕，最多等待300秒300000
+                        if (!process.WaitForExit(300000))
+                        {
+                            // 如果超过300秒仍未退出，就强制关闭进程
+                            process.Kill();
+                            string  processName = "FDK.exe";
+                            // 获取同名进程的列表
+                            Process[] processes = Process.GetProcessesByName(processName);
+                            // 遍历进程列表，关闭除指定进程外的其他进程
+                            foreach (Process cess in processes)
+                            {
+                                cess.Kill();
+                            }
+                            TraceInfo.LogOut(LogLevels.Error, "响应超时，自动退出！");
+                        }
                     });
-
                     // 获取进程的退出代码
                     int exitCode = process.ExitCode;
+                    // 设置间隔时间（单位：毫秒）
+                    int interval = SafeParseDecimal(txtTime.Text, "间隔时间值不正确，请检查！")*10000;
+                    await Task.Delay(interval);
                 }
             }
             catch (Exception ex)
             {
-                TraceInfo.LogOut(LogLevels.Error,  ex.ToString()+ex.StackTrace);
+                TraceInfo.LogOut(LogLevels.Error, ex.ToString() + ex.StackTrace);
                 System.Windows.Forms.MessageBox.Show(ex.Message.ToString());
             }
         }
@@ -172,7 +198,6 @@ namespace AgeingCapture
             ini.IniWriteValue("CEPH", "KV", CEPH.KV.ToString());
             ini.IniWriteValue("CEPH", "MA", CEPH.MA.ToString());
             return filePath;
-
         }
 
         public string Write30Ini(Ageing data)
@@ -225,6 +250,21 @@ namespace AgeingCapture
                     return;
                 }
             }
+        }
+
+        private void chk_FactoryMode_Checked(object sender, RoutedEventArgs e)
+        {
+            txtTimes.IsEnabled = true;
+        }
+
+        private void chk_FactoryMode_Unchecked(object sender, RoutedEventArgs e)
+        {
+            txtTimes.IsEnabled = false;
+        }
+
+        private void btn_pause_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

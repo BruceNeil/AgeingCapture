@@ -19,3 +19,4 @@ D:\测试代码\AgeingCapture\AgeingCapture\obj\Debug\AgeingCapture.exe
 D:\测试代码\AgeingCapture\AgeingCapture\obj\Debug\AgeingCapture.pdb
 D:\测试代码\AgeingCapture\AgeingCapture\bin\Debug\NLog.dll
 D:\测试代码\AgeingCapture\AgeingCapture\bin\Debug\NLog.xml
+D:\测试代码\AgeingCapture\AgeingCapture\obj\Debug\App.baml

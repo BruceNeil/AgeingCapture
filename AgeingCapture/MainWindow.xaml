@@ -6,15 +6,17 @@
         xmlns:local="clr-namespace:AgeingCapture"
         mc:Ignorable="d"
         Title="Capture老化工具"
-        Height="390"
+        Height="370"
         Width="550">
-    <Grid Margin="3,20,10,3"
+    <Grid Margin="3,10,10,3"
           UseLayoutRounding="True"
           SnapsToDevicePixels="True">
         <Grid.RowDefinitions>
-            <RowDefinition Height="90"></RowDefinition>
-            <RowDefinition Height="90"></RowDefinition>
-            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="65"></RowDefinition>
+            <RowDefinition Height="65"></RowDefinition>
+            <RowDefinition Height="65"></RowDefinition>
+            <RowDefinition Height="65"></RowDefinition>
+            <RowDefinition Height="65"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"></ColumnDefinition>
@@ -44,13 +46,13 @@
 
         <Label Grid.Row="1"
                Grid.Column="0"
-               Margin="3"
+               Margin="1"
                VerticalAlignment="Center"
                FontSize="20">Capture:</Label>
         <TextBox  Grid.Row="1"
                   Grid.Column="1"
                   Name="txtRate"
-                  Margin="3"
+                  Margin="1"
                   Height="30"
                   IsEnabled="False"
                   InputScope="Number"
@@ -59,19 +61,85 @@
         <Button Grid.Row="1"
                 Grid.Column="2"
                 Margin="3"
+                Padding="2"
                 Height="30"
                 Name="btn_newFile"
                 Click="btn_newFile_Click">
             选择路径
         </Button>
+        <Label Grid.Row="2"
+               Grid.Column="0"
+               Margin="1"
+               VerticalAlignment="Center"
+               FontSize="20">间隔时间:</Label>
+
+        <TextBox  Grid.Row="2"
+                  Grid.Column="1"
+                  Name="txtTime"
+                  Margin="1"
+                  Height="30"
+                  InputScope="Number"
+                  FontSize="20"
+                  VerticalAlignment="Center"
+                  PreviewTextInput="TextBox_PreviewTextInput">5</TextBox>
+        <Label Grid.Row="2"
+               Grid.Column="2"
+               Margin="1"
+               VerticalAlignment="Center"
+               FontSize="20">分钟</Label>
+
+        <StackPanel Grid.Row="3"
+                    Grid.Column="1"
+                    Orientation="Horizontal">
+            <CheckBox Name="chk_FactoryMode"
+                      Content="连续模式"
+                      VerticalAlignment="Center"
+                      HorizontalAlignment="Center"
+                      Checked="chk_FactoryMode_Checked"
+                      Unchecked="chk_FactoryMode_Unchecked"
+                      FontSize="20" />
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Margin="20,0,0,0"
+                   VerticalAlignment="Center"
+                   FontSize="20">循环次数:</Label>
+
+            <TextBox Name="txtTimes"
+                     Margin="1"
+                     Height="30"
+                     Width="100"
+                     InputScope="Number"
+                     FontSize="20"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center"
+                     PreviewTextInput="TextBox_PreviewTextInput">0</TextBox>
+
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Margin="0,0,0,0"
+                   VerticalAlignment="Center"
+                   FontSize="20">次</Label>
+
+        </StackPanel>
 
 
-        <Button Grid.Row="2"
-                Grid.Column="1"
-                Height="50"
-                Margin="3"
-                VerticalAlignment="Center"
-                Name="btn_Save"
-                Click="btn_Save_Click">开始老化</Button>
+        <StackPanel Grid.Row="4"
+                    Grid.Column="1" Orientation="Horizontal">
+            <Button Grid.Row="4"
+                    Grid.Column="1"
+                    Height="50"
+                    Margin="1"
+                    Width="150"
+                    Name="btn_Save"
+                    Click="btn_Save_Click">开始老化</Button>
+
+            <Button Grid.Row="4"
+                    Grid.Column="1"
+                    Height="50"
+                    Margin="1"
+                    Width="150"
+                    Name="btn_pause"
+                    Click="btn_pause_Click">暂停</Button>
+        </StackPanel>
     </Grid>
 </Window>

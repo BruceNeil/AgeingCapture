@@ -1,0 +1,2 @@
+2023-07-10 08:34:13.7727|ERROR|AgeingCapture.Utils.TraceInfo|响应超时，自动退出！
+2023-07-10 08:34:14.1007|ERROR|AgeingCapture.Utils.TraceInfo|响应超时，自动退出！
